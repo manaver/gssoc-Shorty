@@ -11,7 +11,7 @@ class Database
   public function connect()
   {
     // echo __DIR__.'/../env.php';
-    include(__DIR__ . '/../../env.php');
+    include(__DIR__.'/../../env.php');
     // $env_server = "localhost";
     // $env_username = "root";
     // $env_password = "root";
@@ -28,3 +28,4 @@ class Database
     return $conn;
   }
 }
+?>
